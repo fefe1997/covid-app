@@ -20,7 +20,7 @@ const contents = {
   },
   deaths: {
     title: 'Deaths',
-    text: 'Number of deaths caused by COVID-19',
+    text: 'Number of deaths caused by from COVID-19',
   },
 };
 
