@@ -45,7 +45,7 @@ export function Chart({ data, country}: ChartProps) {
     )
 
     const barChart =(
-        data.confirmed ? <Bar 
+        data.confirmed ? <Bar
             data={{
                 labels: [ 'Infected', 'Recovered', 'Deaths' ],
                 datasets: [{
@@ -59,10 +59,10 @@ export function Chart({ data, country}: ChartProps) {
                 }]
             }}
             options={{
-                legend: { 
+                legend: {
                     display: false
                 },
-                title: { 
+                title: {
                     display: true,
                     text: `Current state in ${country}`
                 }
